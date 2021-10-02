@@ -1,0 +1,122 @@
+body,body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 60px;
+}
+
+.navbar-brand {
+  padding: 0;
+  font-family: "Caveat", cursive;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  background-color: #fafafa;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color: #7952b3;
+  box-shadow: 3px 2px 2px grey;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+.sticky {
+  position: sticky;
+  top: 69px;
+}
+
+/* LOGIN  FORM*/
+
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+
+/*ABOUT*/
+.pp-content-text {
+  display: flex;
+  align-self: center;
+}
+
+.pp-content-text h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.pp-content-text p {
+  font-size: 21px;
+}
+
+.about-card {
+  margin-top: -75px;
+  z-index: -2;
+}
+.about-pp-card {
+  margin-top: 11rem;
+}
+
+.about-ppimg {
+  width: 250px;
+  height: 250px;
+  margin-top: -7rem;
+}
+
+.about-pp-card small {
+  font-size: 0.8;
+}
+
+.pos-main-img{
+  height: 400px;
+}
+.detail-container{
+  margin: 0px 200px;
+  max-width: 700px;
+}
+
+@media (max-width: 576px) {
+  img {
+    height: 200px;
+  }
+  /*About Media*/
+  .pp-content-text h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .pp-content-text p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .about-card {
+    margin-top: 0px;
+    z-index: -2;
+  }
+  .about-ppimg {
+    width: 250px;
+    height: 250px;
+    margin-top: -9rem;
+  }
+  .pos-main-img{
+    height: 200px;
+  }
+  .about-lnk{
+    margin-right: 15px;
+    margin-bottom: -10px;
+  }
+  .detail-container{
+    margin: 0px 5px;
+    max-width: 100%;
+  }
+  
+}
